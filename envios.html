@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<title>envios.bg</title>
+	<style type="text/css">
+		body{
+                   background-image: url(blanco.jpg);		
+               	}
+		div{
+				display: flex;
+			}
+			
+		header{
+				
+			}	
+			nav{
+                font-size: 25px;
+                color:black;
+            }
+
+            form{
+            	width: 500px;
+            	height: 800px;
+            	font-size: 35px;
+            	position: absolute;
+            	border: none;
+            	color: black;
+            	
+            	padding-top:45px;
+            	border: 5px;
+            	transform: translate(45%, 10%);
+            }
+
+            h2{
+				
+                width:450px;
+                height: 50px;
+                text-align: center;
+			}
+
+	</style>
+</head>
+
+<body>
+<header>
+	<nav>
+			<h1><center>ENVIO</center></h1>
+			<ul>
+                 <center><li><a href="index.html">Pagina Principal</a></li></center>
+                 <center><li><a href="inicio.html">Inicio</a></li></center>
+                 <center><li><a href="productos.html">Productos</a></li></center>
+                 <center><li><a href="nosotros.html">Nosotros</a></li></center>
+                 <center><li><a href="contacto.html">Contactanos</a></li></center>
+            </ul>
+		</nav>
+</header>
+
+	<h2>Registrato para envio del producto</h2>
+	<br>
+	<br>
+	<form  action="registrar.php" method="POST"  >
+		<label>Nombre: </label> <input type="text" name="nombre">
+	    <br>
+	    <br>
+	    <label>Apellidos: </label> <input type="text" name="apellidos">
+	    <br>
+	    <br>
+	    <label>Ciudad: </label> <input type="text" name="ciudad">
+	    <br>
+	    <br>
+	    <label>Direccion: </label> <input type="text" name="direccion">
+	    <br>
+	    <br>
+	    <label>Correo: </label> <input type="text" name="correo">
+		
+		
+		<input type="submit" value="Enviar datos"/>
+			
+	</form>
+	
+
+
+
+</body>
+</html>
